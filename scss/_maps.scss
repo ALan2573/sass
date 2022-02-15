@@ -1,0 +1,27 @@
+
+
+// Maps
+$colores :(
+    h1 : $color1,
+    h2 : $colorsub,
+    h3 : $colorceles ,
+   
+);
+@each $name-color, $color in $colores {
+    #{$name-color}{
+        color: $color;
+    }
+    
+}
+// Map get
+
+
+
+// Extend
+// .Cp {
+//     @extend .Cp;
+    
+   
+//      @extend .texto4;
+// }
+

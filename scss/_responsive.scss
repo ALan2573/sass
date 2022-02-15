@@ -1,0 +1,120 @@
+
+
+
+// celular
+@media (max-width: 601px){
+  .grid_areas4 {
+    background-image : url(../imagenes/fondo13.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-areas: 
+    "header "   
+    " nav  "
+    "div "
+    "article " 
+    "section"
+    "footer  "
+    ; 
+  }  
+  .contacto2 {
+    color: $colornegro;
+    font-family: 'New Rocker', cursive;
+    text-align: center;
+   font-size: 20px;
+  }
+  
+  
+  .numero {
+    text-align: center;
+   font-size: 20px;
+  }
+  .form-label {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: $color1;
+  }
+  h3 b {
+    font-size: 20px;
+   display: flex;
+   justify-content: center;
+  }
+  
+  .Nsc {
+    color: #82A0AA;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   font-size: 10px;
+  }
+  .input{
+    display: flex;
+    align-self: center;
+  }
+  .contactoflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .contactoflex2 {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img {
+    background-color: $colorceles;
+    width: 25px;
+  }
+.tituloanimado {
+    margin-left: 25px;
+    color: $color1;
+    background-color: $colornegro;
+    font-size: 27px;
+    animation-name: titulo;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+  }
+.icon {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin: 5px;
+    position: relative;
+    top: 10px; left: 15px;
+   }
+  @keyframes titulo {
+    from {
+      transform: translatey(-200px);
+    }
+    to {
+      transform: translatey(0px);
+    }
+    
+  } 
+  
+.texto4
+{
+        // margin: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family: 'Slabo ', serif;
+        background-color: white;
+        font-size: 15px;
+      }
+    
+}
+// contacto
+
+
+// Tablet
+@media (min-width: 602px) and (max-width: 1023px){
+    .texto4{
+        margin: 10px;
+        font-family: 'Slabo 27px', serif;
+        background-color: white;
+        font-size: 15px;
+      }
+}
+
