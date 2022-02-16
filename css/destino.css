@@ -2,18 +2,8 @@
   font-family: 'Creepster', cursive;
   font-family: 'New Rocker', cursive; }
 
-h2 {
-  font-family: 'New Rocker', cursive;
-  text-align: center;
-  font-size: 30px; }
-
 .texto4 {
   font-family: 'Slabo 27px', serif; }
-
-.sucursales2 {
-  font-family: 'New Rocker', cursive;
-  text-align: center;
-  font-size: 50px; }
 
 header {
   width: 100%;
@@ -99,7 +89,7 @@ h2 {
 .form-label {
   display: flex;
   justify-content: center;
-  font-size: 20px;
+  font-size: 30px;
   color: #D6A339; }
 
 h3 b {
@@ -111,7 +101,7 @@ h3 b {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 25px; }
+  font-size: 40px; }
 
 .input {
   display: flex;
@@ -130,6 +120,10 @@ h3 b {
 
 .img {
   width: 100px; }
+
+.horarios {
+  display: flex;
+  justify-content: center; }
 
 footer {
   color: #82A0AA;
@@ -240,7 +234,7 @@ body .grid_areas3 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 10px; }
+    font-size: 25px; }
   .input {
     display: flex;
     align-self: center; }
@@ -286,6 +280,49 @@ body .grid_areas3 {
     font-size: 15px; } }
 
 @media (min-width: 602px) and (max-width: 1023px) {
+  .grid_areas4 {
+    background-image: url(../imagenes/fondo13.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-areas: "header "    " nav  " "div " "article "  "section" "footer  "; }
+  .contacto2 {
+    color: black;
+    font-family: 'New Rocker', cursive;
+    text-align: center;
+    font-size: 60px; }
+  .numero {
+    text-align: center;
+    font-size: 50px; }
+  .form-label {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #D6A339; }
+  h3 b {
+    font-size: 30px;
+    display: flex;
+    justify-content: center; }
+  .Nsc {
+    color: #82A0AA;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px; }
+  .input {
+    display: flex;
+    align-self: center; }
+  .contactoflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+  .contactoflex2 {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .img {
+    background-color: #82A0AA;
+    width: 30px; }
   .texto4 {
     margin: 10px;
     font-family: 'Slabo 27px', serif;
@@ -300,3 +337,8 @@ h2 {
 
 h3 {
   color: #82A0AA; }
+
+.sucursales2, h2 {
+  font-family: 'New Rocker', cursive;
+  text-align: center;
+  font-size: 50px; }

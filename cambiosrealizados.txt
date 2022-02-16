@@ -1,5 +1,14 @@
 KEYWORDS
-sume estos keywords a mi sitio: "guitarra, bateria, guitarra electrica, instrumentos musicales , acustica , saxofon , musica".
+sume estos keywords a mi sitio:
+en inicio: "guitarra, bateria, guitarra electrica, instrumentos musicales , acustica , saxofon , musica".
+
+contacto:contactanos , email , telefono , redes sociales;
+
+preguntas: preguntas, envio , garantia , devoluciones , entrega , pago;
+
+sobre nos: nosotros, cuando empezamos, grupo;
+
+sucursales: sucursales, Sucursal , local , tienda ;
 
 TITULOS
 Despues cambie los titulos de 
@@ -8,6 +17,19 @@ preguntas/ preguntas Guitars Symphony
 sobre nosotros/ sobre nosotros Guitars Symphony
 contacto/ contacto Guitars Symphony
 sucursales/ sucursales Guitars Symphony
+
+DESCRIPTION
+
+inicio: esta pagina esta dedicada a vender instrumentos musicales de la mejor calidad, todos nuestros productos cuentan con garantia, estamos tratando de crecer mucho mas, y vamos a traer nuevas marcas de productos 
+
+contacto: Aca en contacto es por si preguntas frecuentes no despejo todas las dudas de los clientes y pueden contactarnos o si tienen un problema con el producto pueden contactarse por aca
+
+preguntas: esta seccion fue creada para las personas que tienen dudas sobre nuestra pagina o nuestros productos y como nos manejamos con el envio y los metodos de pago
+ 
+
+sobre noso: sobre nosotros fue creada para que la gente nos conociera y sepa un poco quienes somos y por que decidimos empezar este emprendimiento
+
+sucursales: aca podes acceder a nuestras sucursales y ver que dias y horarios estan abiertos y tambien donde esta ubicada cada sucursal
 
 ENCABEZADO
 seria Guitars Symphony en todas las paginas
