@@ -3011,12 +3011,12 @@ textarea.form-control-lg {
   display: flex;
   justify-content: center;
   color: #fff;
-  background-color: black;
+  background-color: #021C36;
   border-color: #BFFCF9;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #021C36;
+  background-color: red;
   border-color: #BFFCF9;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
