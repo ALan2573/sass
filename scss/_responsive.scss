@@ -2,7 +2,12 @@
 
 
 // celular
-@media (max-width: 601px){
+@media (max-width: 600px){
+  .padre2_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
   .grid_areas4 {
     background-image : url(../imagenes/fondo13.jpg);
     background-size: cover;
@@ -76,14 +81,26 @@
     animation-duration: 2s;
     animation-delay: 0s;
   }
-.icon {
-    width: 20px;
-    height: 20px;
-    padding: 2px;
-    margin: 5px;
-    position: relative;
-    top: 10px; left: 15px;
-   }
+  // .padre2_flex {
+  //   padding-top: 0.3125rem;
+  //   padding-bottom: 0.3125rem;
+  //   margin-right: 1rem;
+  //   font-size: 1.25rem;
+  //   text-decoration: none;
+  //   white-space: nowrap;
+  // }
+  
+  // .navbar-nav {
+  //   display: flex;
+  //   flex-direction: column;
+  //   padding-left: 0;
+  //   margin-bottom: 0;
+  //   list-style: none;
+  // }
+  // .navbar-nav .nav-link {
+  //   padding-right: 0;
+  //   padding-left: 0;
+  // }
   @keyframes titulo {
     from {
       transform: translatey(-200px);
@@ -106,9 +123,39 @@
 }
 
 
-
+@media (min-width: 602) and (max-width: 991px){
+  .padre2_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .tituloanimado {
+    color: $color1;
+    background-color: $colornegro;
+    font-size: 20px;
+    animation-name: titulo;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+  }
+}
 // Tablet
-@media (min-width: 602px) and (max-width: 1023px){
+@media (min-width: 992px) and (max-width: 1023px){
+  .tituloanimado {
+    color: $color1;
+    background-color: $colornegro;
+    font-size: 40px;
+    animation-name: titulo;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+  }
+  .padre2_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
   // contacto
   .grid_areas4 {
     background-image : url(../imagenes/fondo13.jpg);
@@ -183,3 +230,18 @@
       }
 }
 
+// Destok
+@media  (min-width: 1024px){
+  .padre2_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    // flex-wrap: wrap;
+  }
+  .navbar-brand {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+}

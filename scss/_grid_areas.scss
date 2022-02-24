@@ -43,9 +43,10 @@ body #grid_areas {
    .grid_areas2 {
     display: grid;
     grid-template-areas: 
-    "header" 
+     
     "nav"
-    "article"   
+    "article"  
+    "section" 
     "footer" 
     ; 
   }  
@@ -55,6 +56,7 @@ body .grid_areas3 {
     height: 100vh;
   }
   .grid_areas3 {
+   
     display: grid;
     grid-template-areas: 
     "header " 
@@ -88,6 +90,7 @@ body .grid_areas3 {
     height: 100vh;
   }
   .grid_areas5 {
+    
     display: grid;
     grid-template-areas: 
     "header  "

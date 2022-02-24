@@ -9,27 +9,14 @@ header {
   width: 100%;
   background-color: black; }
 
-.padre_flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
 .tituloanimado {
+  margin-left: 50px;
   background-color: black;
-  font-size: 50px;
+  font-size: 40px;
   animation-name: titulo;
   animation-iteration-count: 1;
   animation-duration: 2s;
   animation-delay: 0s; }
-
-.icon {
-  width: 60px;
-  height: 60px;
-  padding: 0px;
-  margin: 2px;
-  position: relative;
-  top: 10px;
-  left: 15px; }
 
 @keyframes titulo {
   from {
@@ -202,7 +189,7 @@ body #grid_areas {
 
 .grid_areas2 {
   display: grid;
-  grid-template-areas: "header"  "nav" "article"    "footer"; }
+  grid-template-areas: "nav" "article"   "section"  "footer"; }
 
 body .grid_areas3 {
   width: 100%;
@@ -226,7 +213,11 @@ body .grid_areas3 {
   display: grid;
   grid-template-areas: "header  " " nav  " "article" "footer  "; }
 
-@media (max-width: 601px) {
+@media (max-width: 600px) {
+  .padre2_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: start; }
   .grid_areas4 {
     background-image: url(../imagenes/fondo13.jpg);
     background-size: cover;
@@ -279,14 +270,6 @@ body .grid_areas3 {
     animation-iteration-count: 1;
     animation-duration: 2s;
     animation-delay: 0s; }
-  .icon {
-    width: 20px;
-    height: 20px;
-    padding: 2px;
-    margin: 5px;
-    position: relative;
-    top: 10px;
-    left: 15px; }
   @keyframes titulo {
     from {
       transform: translatey(-200px); }
@@ -299,7 +282,33 @@ body .grid_areas3 {
     background-color: white;
     font-size: 15px; } }
 
-@media (min-width: 602px) and (max-width: 1023px) {
+@media (min-width: 602) and (max-width: 991px) {
+  .padre2_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: start; }
+  .tituloanimado {
+    color: #D6A339;
+    background-color: black;
+    font-size: 20px;
+    animation-name: titulo;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 0s; } }
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  .tituloanimado {
+    color: #D6A339;
+    background-color: black;
+    font-size: 40px;
+    animation-name: titulo;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-delay: 0s; }
+  .padre2_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: start; }
   .grid_areas4 {
     background-image: url(../imagenes/fondo13.jpg);
     background-size: cover;
@@ -348,6 +357,16 @@ body .grid_areas3 {
     font-family: 'Slabo 27px', serif;
     background-color: white;
     font-size: 15px; } }
+
+@media (min-width: 1024px) {
+  .padre2_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: start; }
+  .navbar-brand {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap; } }
 
 h1 {
   color: #D6A339; }
