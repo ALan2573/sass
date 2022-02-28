@@ -4,6 +4,9 @@ header {
     width: 100%;
     background-color: $colornegro;
    }
+   h2 {
+     color:$colorceles
+   }
  
    .tituloanimado {
      margin-left: 50px;
@@ -14,9 +17,8 @@ header {
     animation-duration: 2s;
     animation-delay: 0s;
    }
-  
 
- 
+
   @keyframes titulo {
     from {
       transform: translatey(-200px);
@@ -26,7 +28,11 @@ header {
     }
     
   } 
-
+.boton {
+  display: flex;
+  justify-content: center;
+ 
+}
 
   .btn-primary2 {
     margin-top: 5px;
@@ -42,20 +48,79 @@ header {
   .navbar-dark .navbar-brand {
     color: $color1; 
   }
-  .btn-primary {
+  .boton_comprar {
+    width: 100px;
     display: flex;
     justify-content: center;
+  }
+  .btn-primary {
     color: #fff;
     background-color: $colornegro;
     border-color: #BFFCF9;
   }
   .btn-primary:hover {
+    
     color: #fff;
     background-color: $colorhover;
     border-color: #BFFCF9;
   }
   
 //  preguntas
+  .color {
+    margin-top: 20px;
+    color:$color1
+  }
+.width {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 99%;
+  height: 25vh;
+}
+.width2 {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  width: 99%;
+  height: 35vh;
+}
+.fondo {
+  background-image: url(../imagenes/fondo.jpg);
+  
+}
+
+// .grid_areas2{
+//   background-image : url(../imagenes/fondo.jpg);
+//   background-size: cover;
+//   display: flex;
+  
+  
+// }
+// .width2 {
+//   display: flex;
+//   justify-content: center;
+//   width: 97%;
+// }
+// .card {
+//   background-color: red;
+// padding: 20px;
+
+// }
+.card-img-top {
+  
+  width: 100%;
+  
+}
+.card2 {
+
+padding: 20px;
+
+}
+.col2 {
+  
+  margin-bottom: 10px;
+}
+
 h2{
  text-align: center;
  font-size: 250%;
@@ -94,8 +159,10 @@ h2{
 
 
 .numero {
+ 
   text-align: center;
  font-size: 20px;
+
 }
 .form-label {
   display: flex;
@@ -125,13 +192,15 @@ h3 b {
   justify-content: space-around;
 }
 .contactoflex2 {
-  height: 85vh;
+  height: 83vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.img {
-  width: 100px;
+.icono {
+  // display: flex;
+  // justify-content: flex-end;
+  width: 50px;
 }
 // sucursales
 .horarios {
