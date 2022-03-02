@@ -57,26 +57,33 @@ h2 {
   background-color: #021C36;
   border-color: #BFFCF9; }
 
+.fondo {
+  background-image: url(../imagenes/fondo6.jpg);
+  background-size: cover;
+  height: 100vh; }
+
+.card-title {
+  font-size: 30px;
+  font-family: 'League Spartan', sans-serif; }
+
+.card-img-top {
+  width: 100px; }
+
 .color {
   margin-top: 20px;
-  color: #D6A339; }
+  color: #82A0AA; }
+
+.Cp {
+  margin-top: 50px; }
 
 .width {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  width: 99%;
-  height: 25vh; }
+  margin-top: 40px;
+  margin-bottom: 90px;
+  width: 98%; }
 
 .width2 {
-  margin-top: 90px;
-  display: flex;
-  justify-content: center;
-  width: 99%;
-  height: 35vh; }
-
-.fondo {
-  background-image: url(../imagenes/fondo.jpg); }
+  margin-bottom: 140px;
+  width: 98%; }
 
 .card-img-top {
   width: 100%; }
