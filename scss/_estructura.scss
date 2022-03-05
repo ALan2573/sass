@@ -71,11 +71,7 @@ header {
   background-size: cover;
   height: 100vh;
 }
-.card-title {
-  font-size: 30px;
-  font-family: 'League Spartan', sans-serif;
- 
-}
+
 .card-img-top {
   width: 100px;
 }
@@ -93,7 +89,7 @@ header {
   
 }
 .width2 {
-  margin-bottom: 140px;
+  margin-bottom: 280px;
   width: 98%;
 }
 
@@ -102,11 +98,7 @@ header {
   width: 100%;
   
 }
-.card2 {
 
-padding: 20px;
-
-}
 .col2 {
   
   margin-bottom: 10px;
@@ -130,11 +122,56 @@ h2{
   background-color: white;
   font-size: 18px;
 }
+.container {
+  background-color: red;
+  width: 100%;
+}
+// nosotros 
+h5 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.section_flex {
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+
+
+}
+.tarjeta {
+  margin-top: 20px;
+  margin-left: 100px;
+margin-right: 100px;
+  
+}
+ .animate__animated {
+  margin: 30px 0px 40px 160px;
+   color:rgb(140, 4, 21) ;
+  font-size: 30px;
+  font-family: 'New Rocker', cursive;
+ 
+}
+.card2 {
+
+  padding: 20px;
+  
+  }
+.card-title3 {
+    display:flex ;
+    justify-content: center;
+   }
+.card-text3 {
+margin-top: 27px;
+margin-left: 20px;
+   
+   }
 .quienes_soflex{
   display: flex;
   justify-content: center;
-  margin-top: 15px;
-  margin-bottom: 20px;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 35px;
+  margin-bottom: 30px;
   .quienes_somos {
     width: 400px;
   }
@@ -189,11 +226,21 @@ h3 b {
   justify-content: center;
 }
 .icono {
-  // display: flex;
-  // justify-content: flex-end;
   width: 50px;
 }
 // sucursales
+
+.card-title {
+  
+ padding-top: 55px;
+}
+.card-text2 {
+  display: flex;
+  justify-content: center;
+  margin: 80px 10px 30px 50px;
+  font-size: 20px;
+
+}
 .horarios {
   display: flex;
   justify-content: center;
