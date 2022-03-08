@@ -35,30 +35,14 @@ body #grid_areas {
     "footer" 
     ; 
   }    
-//   preguntas
-.grid_areas2 
-{ 
-    width: 100%;
-    height: 85vh;
-  } 
-   .grid_areas2 {
-    display: grid;
-    grid-template-areas: 
-    "nav"
-    "header"
-    "article"  
-    "section"
-     
-    "footer" 
-    ; 
-  }  
+ 
 //   sobre nosotros
 body .grid_areas3 {
     width: 100%;
     height: 100vh;
   }
   .grid_areas3 {
-   background-image: url(..//imagenes/nosotrosfondo.jpg);
+   background-image: url(..//imagenes/nosotrosfondo-min.jpg);
    background-size: cover;
     display: grid;
     grid-template-areas: 
@@ -72,7 +56,7 @@ body .grid_areas3 {
   }    
 
 .grid_areas4 {
-    background-image : url(../imagenes/fondo13.jpg);
+    background-image : url(../imagenes/fondo13-min.jpg);
     background-size: cover;
     display: grid;
     grid-template-areas: 
